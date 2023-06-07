@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>GTA Apartment Rental Price</title>
+		<title>Toronto Traffic Collision</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -50,48 +50,59 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>GTA Apartment Rental Price</h1>
-							<span class="image main"><img src="images\intro 1.jpg" /></span>
+							<h1>Toronto Traffic Collisions</h1>
+							<span class="image main"><img src="images\eda-intro 1.jpg" /></span>
 							<h3>Objectives</h3>
 							<div>The goals of this project are:</div>
-							<div>	-Explore the data collected on GTA apartment price in 2018 </div>
-							<div>	-Explore the relationship between the price, the region as well as various bedroom units</div>
-							<div>	-Gain insights into these prices. These insights may be used to predict future price or to drive further investigation by collecting more data</div>
+							<div>	-Inspect the dataset</div>
+							<div>	-Based on the inspection, come up with questions that can be answered with the dataset/div>
+							<div>	-Extract information from the dataset with these questions in mind</div>
+
 							
 							<h3></h3>
 							<h3>Tools</h3>
-							<div>Microsoft Power BI was used to explore and visualize the dataset.</div>
+							<div>-Python</div>
+							<div>-Numpy</div>
+							<div>-Pandas</div>
+							<div>-Plotly</div>
+
+
+							<h3></h3>
+							<h3>Questions</h3>
+							<div>1.	Number of collisions per year</div>
+							<div>2.	Number of collision per month per year </div>
+							<div>3.	Number of collisions per hours</div>
+							<div>4.	Number of collisions per month per division</div>
+							<div>5.	Number of collisions per collision type per year</div>
 
 
 							<h3></h3>
 							<h3>Data</h3>
-							<div>This dataset is Toronto Apartment Rental Price 2018 dataset from Kaggle. It has 7 features and 7,884 records. It covers the year of 2018. https://www.kaggle.com/datasets/rajacsp/toronto-apartment-price</div>
-
-							<h3></h3>
-							<h3>Data Cleaning and Preprocessing</h3>
-							<div>Preprocessing focused on the variable ‘Region’ which indicates the city the rental took place. The expected values are any cities in GTA. Rows with other variables other than these were removed. A total of 5,348 rows remained.</div>
+							<div>The dataset was taken from Kaggle. There are 499,539 data with 19 columns. It covers from 2014 to June 2021.
+								https://www.kaggle.com/datasets/andriyahapov/traffic-collisions-toronto
+								</div>
 
 							<h3></h3>
 							<h3>Dashboard and Key Insights</h3>
-							<span class="image main"><img src="images\insight 1.png" /></span>
-							<div>For a total of 763 apartment rental transactions, the average price is $ 2.17K in 2018. Den is counted as 0.5 bedroom in this project.</div>
+							<span class="image main"><img src="images\eda - insight 1.png" /></span>
+							<div>The number of accidents is gradually increasing from 2014 to 2019. 2019 has the most number of accident at 82.8K. It then plummeted in 2020. </div>
 
 							<h3></h3>
-							<span class="image main"><img src="images\insight 2.png" /></span>
-							<div>There was a vast range in the price for all bedrooms but the average price increases with the increasing number of bedrooms. </div>
+							<span class="image main"><img src="images\eda - insight 2.png" /></span>
+							<div>December and January are the months with most number of accidents. In 2014 and 2019, the most accidents occurred in January. December had the most accidents in 2016 and 2017.   </div>
 
 							<h3></h3>
-							<span class="image main"><img src="images\insight 3.png" /></span>
-							<div>An overview of the average price by the region and bedroom. </div>
+							<span class="image main"><img src="images\eda - insight 3.png" /></span>
+							<div>The most likely hour for traffic accidents are between 15:00 – 17:00.  </div>
 
 						
 							<h3></h3>
-							<span class="image main"><img src="images\insight 4.png" /></span>
-							<div>The most expensive region for 1 bedroom was Vaughan while Toronto came first for the other number of bedrooms.</div>
+							<span class="image main"><img src="images\eda - insight 4.png" /></span>
+							<div>Regardless of the year, Division 32 and Division 42 came close to the most number of accidents per year. Non-specified Area(NSA) is exempted from ranking as it is combined number outside of the listed divisions. </div>
 
 							<h3></h3>
-							<span><img src="images\insight 5.png" width = "400" height="300"  /></span>
-							<div>The two most popular apartment rental is 1 bedroom and 2 bedroom. Together they make up 81.39% of all the transactions.</div>
+							<span class = "image main"><img src="images\eda - insight 5.png"  /></span>
+							<div>Collisions were categorized into injury, FTR(Fail To Remain) and PD(Property Damage). Property damages occurred overwhelmingly commonly than the other two types combined. </div>
 
 							<h3></h3>
 							<h3>Dashboard and Key Insights</h3>
